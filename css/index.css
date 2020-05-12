@@ -261,23 +261,14 @@ nav a {
     width: 100%;
     justify-content: space-evenly;
   }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
   .content-section {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    width: 100%;
-    margin: 0;
-  }
-  .content-section .text-content {
-    width: 100%;
-    padding-right: 1%;
-  }
-  .content-section .img-content {
-    width: 100%;
-    padding-left: 1%;
-  }
-  .content-section .img-content img {
-    border-radius: 2px;
+    align-items: center;
   }
   #venice {
     order: 1;
@@ -285,7 +276,7 @@ nav a {
   .content-pick {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     width: 100%;
     padding: 0;
     margin: 0;
