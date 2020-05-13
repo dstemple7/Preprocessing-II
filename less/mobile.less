@@ -26,8 +26,14 @@
     }
 }
 
-@media @mobile {
-  div, h1, section, p, h2, nav {
-  width:100% !important;
+h1, h2, img, nav, div, section, p {
+  @media @mobile{
+    width:100% !important;
+  }
+}
+
+.header-1st, .header-top {
+  @media (max-width:1311px){
+    width:100% !important;
   }
 }

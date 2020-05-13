@@ -256,8 +256,28 @@ nav a {
   display: flex;
   justify-content: center;
 }
-h1 {
-  display: inline;
+.header-1st {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1%;
+  width: 45%;
+}
+.header-top h1 {
+  font-size: 4rem;
+}
+@media (max-width: 500px) {
+  .header-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   nav {
@@ -286,12 +306,19 @@ h1 {
   }
 }
 @media (max-width: 500px) {
-  div,
   h1,
-  section,
-  p,
   h2,
-  nav {
+  img,
+  nav,
+  div,
+  section,
+  p {
+    width: 100% !important;
+  }
+}
+@media (max-width: 1311px) {
+  .header-1st,
+  .header-top {
     width: 100% !important;
   }
 }
